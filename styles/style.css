@@ -286,17 +286,14 @@
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   box-sizing: border-box;
+  display: flex;
 }
 
 .footer__columns {
-  max-width: 90%;
+  min-width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
-
-.footer__column {
-  min-height: 250px;
 }
 
 .footer__column_content_copyright {
